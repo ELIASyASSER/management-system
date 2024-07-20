@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+.crud{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 0 ;
+    margin: 10px 0;
+}
+.head p{
+    margin-top: 10px;
+}
+ input{
+    width: 100%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #212121;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding-left: 8px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+input:focus{
+    background-color: #060606;
+    transform: scale(1.02);
+}
+.price input{
+    width: calc(100% /4 - 20px);
+    margin-left: 10px;
+}
+strong{
+    background-color: red;
+    display: block;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+strong::before{
+    content: 'Total: ';
+}
+#create{
+    border: none;
+    outline: none;color: white;
+    background-color: rgb(22, 44, 246);
+    border-radius: 15px;
+    width: 100%;
+    height: 30px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 20px 0;
+
+    
+}
+#create:hover
+,.searchBtns button:hover{
+    background-color: rgb(0, 0, 215);
+}
+.searchBtns{
+    display: flex;justify-content: space-between;
+}
+.searchBtns button{
+    border: none;
+    outline: none;color: white;
+    background-color: rgb(22, 44, 246);
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    flex-basis: 50%;
+    margin: 20px;
+    padding: 12px 10px;
+
+
+}
+table{
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0 ;
+    margin: 10px 0;
+
+}
+table td,th{
+    padding:10px;
+    margin: 3px;
+}
+table thead{
+    background-color: #000;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+table tbody{
+    background-color: rgb(6, 54, 187);
+}.upd{
+    color: green;
+}.del{
+    color: red;
+}
+table .update
+,table .delete{
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding: 6px 26px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.delete{
+    background-color: rgb(246, 22, 22);
+
+}
+.update{
+    background-color: green;
+}
+.da{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(22, 44, 246);
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    flex-basis: 50%;
+    display: none;
+    margin: 20px;
+    padding: 12px 10px;   
+    width: 100%;
+}
