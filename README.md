@@ -3,5 +3,5 @@
 the data will be saved in the local storage it can be used in inventories
 or any products you want to organize its data**
 
-[## LIVE PREVIEW]
+[## LIVE PREVIEW](https://www.google.com)
 
